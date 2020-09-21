@@ -14,5 +14,5 @@ docker run -it \
 	--hostname="inside-DOCKER" \
 	--name="pcdet" \
         -v $EXCHANGE:/root/exchange \
-        -v .:/root/OpenPCDet \
+        -v /home/kaiwen/Desktop/OpenPCDet:/root/OpenPCDet \
 	pcdet-docker bash
